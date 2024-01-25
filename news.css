@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@media (min-width: 430px) {
+  .wrapper{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("bg.png");
+    
+}
+.page{
+    padding: 0;
+    margin: 0;
+}
+.container{
+  
+  box-shadow: 5px 5px 100px black, -5px -5px 100px black;
+  background-color: white;
+  width: 430px;
+  margin: auto;
+}
+.header{
+    width: 100%;
+    height: 50px;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: #efc900;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+  margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    background-image: url("logo.png");
+}
+.menu-textl{
+  color: #000;
+  text-decoration-line: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Rubik Mono One";
+    font-size: 8px;
+}
+.menu-text{
+  color: #000;
+  text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "Rubik Mono One";
+    font-size: 8px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    background-color: #000;
+  }
+  .facebook{
+    height: 15px;
+    display: flex;
+    
+    margin-top: 5px;
+  }
+  .facebk{
+    text-decoration: none;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 8px;
+    color: white;
+  }
+  .instagram{
+    height: 15px;
+    display: flex;
+    
+    margin-top: 5px;
+  }
+  .inst{
+    color: white;
+    text-decoration: none;
+  
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 8px;
+  }
+  .twitter{
+    height: 15px;
+    display: flex;
+    
+    margin-top: 5px;
+  }
+  .twitt{
+    text-decoration: none;
+  
+    color: white;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 8px;
+  }
+  .content{
+    width: 100%;
+    height: 1525px;
+  }
+  .new1{
+    width: 734px;
+    height: 400px;
+  }
+  .fort{
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 375px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .hnews{
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .news{
+    justify-content: center;
+
+    font-family: "inter";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .ideas{
+    justify-content: center;
+
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 65px;
+  }
+  .bts{
+    text-align: center;
+
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 350px;
+    margin-left: 40px;
+  }
+  .mini{
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 375px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .new2{
+    
+
+    width: 734px;
+    height: 400px;
+    margin-top: 50px;
+  }
+  .imgfort{
+    width: 100%;
+    height: 260px;
+    border-radius: 20px 20px 0 0 ;
+  }
+  .imgideas{
+    width: 100%;
+    height: 140px;
+    border-radius: 20px 20px 0 0 ;
+  }
+  .imgbts, .imgmini{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px 20px 0 0 ;
+  }
+  .imgfcbk{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 834px) {
+.wrapper{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("bg.png");
+    
+}
+.page{
+    padding: 0;
+    margin: 0;
+}
+.container{
+  
+  box-shadow: 5px 5px 100px black, -5px -5px 100px black;
+  background-color: white;
+  width: 834px;
+  margin: auto;
+}
+.header{
+    width: 100%;
+    height: 75px;
+}
+.menu{
+    width: 100%;
+    height: 75px;
+    background-color: #efc900;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+  margin-left: 44px;
+    width: 75px;
+    height: 75px;
+    background-size: 100%;
+    background-image: url("logo.png");
+}
+.menu-textl{
+  color: #000;
+  text-decoration-line: bold;
+    margin-top: 27px;
+    margin-left: 44px;
+    font-family: "Rubik Mono One";
+    font-size: 16px;
+}
+.menu-text{
+  color: #000;
+  text-decoration: none;
+    margin-top: 27px;
+    margin-left: 44px;
+    font-family: "Rubik Mono One";
+    font-size: 16px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 75px;
+    margin-top: 25px;
+    background-color: #000;
+  }
+  .facebook{
+    height: 35px;
+    display: flex;
+    
+    margin-top: 20px;
+  }
+  .facebk{
+    text-decoration: none;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 8px;
+    color: white;
+  }
+  .instagram{
+    height: 35px;
+    display: flex;
+    
+    margin-top: 20px;
+  }
+  .inst{
+    color: white;
+    text-decoration: none;
+  
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 8px;
+  }
+  .twitter{
+    height: 35px;
+    display: flex;
+    
+    margin-top: 25px;
+  }
+  .twitt{
+    text-decoration: none;
+  
+    color: white;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 8px;
+  }
+  .content{
+    width: 100%;
+    height: 875px;
+  }
+  .new1{
+    width: 734px;
+    height: 400px;
+    display: flex;
+  }
+  .fort{
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 375px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .hnews{
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .news{
+    font-family: "inter";
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .ideas{
+    justify-content: center;
+
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 34px;
+  }
+  .bts{
+    text-align: center;
+
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .mini{
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 375px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 34px;
+  }
+  .new2{
+    width: 734px;
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+  }
+  .imgfort{
+    width: 100%;
+    height: 260px;
+    border-radius: 20px 20px 0 0 ;
+  }
+  .imgideas{
+    width: 100%;
+    height: 140px;
+    border-radius: 20px 20px 0 0 ;
+  }
+  .imgbts, .imgmini{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px 20px 0 0 ;
+  }
+}
+@media (min-width: 1440px) {
+div, p {margin: 0;padding: 0;}
+a {
+  margin-top: 8px;
+  padding-top: 8px;
+}
+.wrapper{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url("bg.png");
+    
+}
+.page{
+    padding: 0;
+    margin: 0;
+}
+.container{
+  
+  box-shadow: 5px 5px 100px black, -5px -5px 100px black;
+  background-color: white;
+  width: 1440px;
+  margin: auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #efc900;
+    display: flex;
+}
+.logo{
+  margin-left: 130px;
+    width: 100px;
+    height: 100px;
+    background-image: url("logo.png");
+}
+.menu-textl{
+  color: #000;
+  text-decoration-line: bold;
+    margin-top: 35px;
+    margin-left: 130px;
+    font-family: "Rubik Mono One";
+    font-size: 24px;
+}
+.menu-text{
+  color: #000;
+  text-decoration: none;
+    margin-top: 35px;
+    margin-left: 130px;
+    font-family: "Rubik Mono One";
+    font-size: 24px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+  }
+  .facebook{
+    width: 266px;
+    height: 50px;
+    display: flex;
+    
+    margin-top: 25px;
+  }
+  .facebk{
+    text-decoration: none;
+    width: 196px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+  }
+  .instagram{
+    width: 266px;
+    height: 50px;
+    display: flex;
+    
+    margin-top: 25px;
+  }
+  .inst{
+    color: white;
+    text-decoration: none;
+  
+    width: 196px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .twitter{
+    width: 266px;
+    height: 50px;
+    display: flex;
+    
+    margin-top: 25px;
+  }
+  .twitt{
+    text-decoration: none;
+  
+    color: white;
+    width: 196px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .content{
+    width: 100%;
+    height: 940px;
+    
+  }
+  .new1{
+    margin-left: 150px;
+    width: 1140px;
+    height: 450px;
+    display: flex;
+  }
+  .fort{
+    width: 600px;
+    height: 450px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+  }
+  .hnews{
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .news{
+    font-family: "inter";
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .ideas{
+    width: 400px;
+    height: 400px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+  .bts{
+    width: 480px;
+    height: 400px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  .mini{
+    width: 520px;
+    height: 400px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+  .new2{
+    width: 1140px;
+    height: 450px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .imgfort{
+    width: 100%;
+    height: 260px;
+    border-radius: 20px 20px 0 0 ;
+  }
+  .imgideas{
+    width: 100%;
+    height: 140px;
+    border-radius: 20px 20px 0 0 ;
+  }
+  .imgbts, .imgmini{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px 20px 0 0 ;
+  }
+}
